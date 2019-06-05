@@ -4,7 +4,7 @@ var submit = $('.submit-btn');
 
 function appendAllListItems() {
   listItems.forEach(function(items){
-    cardContainer.append(`<p class="the-list"> Action: ${items.newAction} <br> Day: ${items.newDay} <br> ${items.newTime} </p> <button> Done</button>`);
+    cardContainer.append(`<p class="the-list"> Action: ${items.newAction} <br> Day: ${items.newDay} <br> Time: ${items.newTime} </p> <button> Done</button>`);
   })
 }
 
